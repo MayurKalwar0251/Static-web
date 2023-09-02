@@ -1,0 +1,266 @@
+@media screen and (max-width:991px) {
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: 1rem;
+        line-height: 25px;
+    }
+    .container{
+        padding: 5vw;
+    }
+    .padding{
+        padding: 0 3vw;
+    }
+    .navbar .left img{
+        width: 150px;
+    }
+    .navbar .right .nav-links{
+        display: none;
+    }
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+    .hero-section{
+        height: 70vh;
+        margin: 50px 0;
+    }
+    .company-section{
+        margin: 100px 0;
+    }
+    .company-section .company .card{
+        margin: 20px  50px;
+    }
+    .type-section{
+        background-size: 650px;
+        margin-top: 0px;
+    }
+    .section-1{
+        margin: 50px 0px;
+    }
+    .section-1 .left img{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+    }
+    .page-section .cards-section .card{
+        width: calc(50% - 10px);
+        height: 200px;
+    }
+    .panel-section .left{
+        width: 60%;
+    }
+    .panel-section .right .img{
+        width: 100%;
+    }
+    .panel-section .left .ul .left-ul ul{
+        line-height: 25px;
+        font-size: 1rem;
+    }
+    .panel-section .left .ul .right-ul ul{
+        line-height: 25px;
+        font-size: 1rem;
+    }
+    .start-section{
+        margin: 50px 0px;
+    }
+    .footer .row .column img{
+        width: 150px;
+    }
+}
+
+
+/* media queries for smaller width */
+@media screen and (max-width:767px) {
+    .hero-section{
+        flex-direction: column-reverse;
+        height: 100vh;
+        margin: 20px ;
+        gap: 30px 0px;
+    }
+    .hero-section .right img{
+        width: 90%;
+    }
+    .hero-section .left{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .company-section .company{
+        justify-content: space-evenly;
+    }
+    .company-section .company .card{
+        width: 20%;
+    }
+    .type-section{
+        background-image: none;
+        margin-bottom: 0px;
+    }
+    .type-section .white-btn{
+        width: 170px;
+        font-size: medium;
+    }
+    .type-section .cards-section .card{
+        width: 40%;
+    }
+    .section-1{
+        flex-direction: column;
+        margin: 50px 0;
+    }
+    .section-1 .left{
+        align-items: center;
+        justify-content: center;
+    }
+    .section-1 .left img{
+        width: 80%;
+    }
+    .section-1 .right{
+        width: 90%;
+    }
+    #section-2{
+        flex-direction: column-reverse;
+    }
+    .page-section .cards-section{
+        gap: 20px;
+    }
+    .page-section .white-btn{
+        width: 170px;
+        font-size: medium;
+    }
+    .panel-section{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0px;
+        margin: 60px 0px;
+        justify-content: center;
+    }
+    .panel-section .left{
+        align-items: center;
+        /* text-align: center; */
+        width: 90%;
+    }
+    .panel-section .right{
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+    }
+    .panel-section .right img{
+        width: 80%;
+    }
+    .panel-section .blue-btn{
+        width: 200px;
+    }
+    .footer{
+        /* height: 130vh; */
+        height: auto;
+        padding: 80px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 40px;
+    }
+    .sub-footer .sub{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sub-footer .sub ul{
+        width: 100%;
+        justify-content: space-evenly;
+        font-size: medium;
+    }
+    .sub-footer .sub .images{
+        width: 100%;
+        justify-content: center;
+    }
+    .sub-footer{
+        height: 120px;
+        padding: 0px 0px !important;
+    }
+    .sub-footer .sub .images img{
+        width: 30px;
+        margin: 0 10px;
+    }
+}
+
+/* media queries for smaller width 479px */
+@media screen and (max-width:479px) {
+    h1{
+        font-size: 1.7rem;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+    .hero-section{
+        height: 80vh;
+        padding: 300px 0 !important;
+    }
+    .hero-section .right img{
+        width: 100%;
+    }
+    .company-section{
+        gap: 0px;
+    }
+    .company-section .company .card{
+        width: 30%;
+    }
+    .type-section{
+        flex-direction: column;
+    }
+    .type-section .cards-section{
+        flex-direction: column;
+        gap: 0px;
+        margin: 10px 0;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    } 
+    .type-section .cards-section .card{
+        margin: 20px 0px;
+        width: 100%;
+    }
+    .type-section .white-btn{
+        width: 170px;
+    }
+    .section-1 .left img{
+        width: 100%;
+    }
+    .page-section .cards-section .card{
+        /* width: calc(100% - 10px); */
+        width: 100%;
+    }
+    .panel-section .left .ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .panel-section .left .ul .left-ul ul{
+        font-size: 1.2rem;
+    }
+    .panel-section .left .ul .right-ul ul{
+        font-size: 1.2rem;
+    }
+    .panel-section .blue-btn{
+        width: 100%;
+    }
+    .sub-footer{
+        height: 160px;
+    }
+    .sub-footer .sub ul{
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

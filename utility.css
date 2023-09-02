@@ -1,0 +1,31 @@
+.container{
+    padding: 0 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.padding{
+    padding: 0 5vw;
+}
+.white{
+    background-color: white;
+    color: black;
+}
+.blue{
+    background-color: #1c9bff;
+    color: white;
+}
+h1{
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+}
